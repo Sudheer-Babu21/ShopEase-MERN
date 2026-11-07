@@ -1,0 +1,906 @@
+{
+  "categories": [
+    {
+      "categoryId": 1,
+      "name": "Electronics and mobile accessories",
+      "description": "Smartphones, audio gear, charging accessories, and computer peripherals."
+    },
+    {
+      "categoryId": 2,
+      "name": "Fashion and clothing",
+      "description": "Men and women apparel, jackets, ethnic wear, and daily casuals."
+    },
+    {
+      "categoryId": 3,
+      "name": "Shoes and footwear",
+      "description": "Running shoes, casual sneakers, formal oxfords, and hiking boots."
+    },
+    {
+      "categoryId": 4,
+      "name": "Home and kitchen",
+      "description": "Home decor, cookware, bedsheets, storage solutions, and appliances."
+    },
+    {
+      "categoryId": 5,
+      "name": "Beauty and personal care",
+      "description": "Skincare essentials, serums, sunscreens, and personal grooming appliances."
+    },
+    {
+      "categoryId": 6,
+      "name": "Books and education",
+      "description": "Engineering textbooks, programming manuals, and bestselling self-help guides."
+    },
+    {
+      "categoryId": 7,
+      "name": "Sports and fitness",
+      "description": "Gym equipment, yoga mats, resistance bands, and athletic accessories."
+    },
+    {
+      "categoryId": 8,
+      "name": "Bags, watches and accessories",
+      "description": "Backpacks, travel kits, leather wallets, sunglasses, and wristwatches."
+    },
+    {
+      "categoryId": 9,
+      "name": "Toys and games",
+      "description": "Board games, puzzles, building blocks, and collectibles for all ages."
+    },
+    {
+      "categoryId": 10,
+      "name": "Office supplies and stationery",
+      "description": "Desk mats, notebooks, gel pens, organizers, and productivity accessories."
+    }
+  ],
+  "products": [
+    {
+      "productId": 1,
+      "categoryId": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "description": "Over-ear active noise cancelling headphones with 40mm neodymium drivers and 30-hour battery life.",
+      "price": 1499,
+      "stockQty": 35,
+      "imagePath": "assets/products/wireless-headphones.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 2,
+      "categoryId": 1,
+      "name": "Bluetooth Earbuds",
+      "description": "True wireless stereo earbuds with low-latency gaming mode, touch controls, and IPX5 water resistance.",
+      "price": 999,
+      "stockQty": 40,
+      "imagePath": "assets/products/wireless-earbuds.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 3,
+      "categoryId": 1,
+      "name": "Smartwatch",
+      "description": "1.78-inch AMOLED touchscreen smartwatch with 24/7 heart rate monitoring, SpO2 sensor, and sleep tracking.",
+      "price": 1999,
+      "stockQty": 25,
+      "imagePath": "assets/products/smartwatch.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 4,
+      "categoryId": 1,
+      "name": "Wireless Mouse",
+      "description": "Ergonomic 2.4GHz optical wireless mouse with silent click buttons and adjustable 1600 DPI.",
+      "price": 699,
+      "stockQty": 45,
+      "imagePath": "assets/products/wireless-mouse.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 5,
+      "categoryId": 1,
+      "name": "Mechanical Gaming Keyboard",
+      "description": "Tenkeyless RGB backlit mechanical gaming keyboard with responsive blue tactile switches and anti-ghosting.",
+      "price": 2499,
+      "stockQty": 20,
+      "imagePath": "assets/products/gaming-keyboard.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 6,
+      "categoryId": 1,
+      "name": "Portable Bluetooth Speaker",
+      "description": "16W powerful stereo sound portable wireless speaker with deep bass radiator and 12-hour continuous playtime.",
+      "price": 1299,
+      "stockQty": 30,
+      "imagePath": "assets/products/bluetooth-speaker.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 7,
+      "categoryId": 1,
+      "name": "Fast Charging Power Bank",
+      "description": "20,000mAh high-capacity lithium-polymer power bank with 22.5W Power Delivery and dual USB-A outputs.",
+      "price": 899,
+      "stockQty": 50,
+      "imagePath": "assets/products/power-bank.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 8,
+      "categoryId": 1,
+      "name": "USB-C Fast Charger",
+      "description": "33W GaN compact wall adapter with dual Type-C and USB-A ports supporting PD 3.0 and QC 4.0.",
+      "price": 499,
+      "stockQty": 60,
+      "imagePath": "assets/products/usb-c-charger.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 9,
+      "categoryId": 1,
+      "name": "Braided USB-C Cable",
+      "description": "Tough nylon-braided 60W fast-charging Type-C to Type-C cable with reinforced strain relief collars (1.5m).",
+      "price": 299,
+      "stockQty": 75,
+      "imagePath": "assets/products/braided-cable.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 10,
+      "categoryId": 2,
+      "name": "Organic Cotton Crewneck T-Shirt",
+      "description": "100% bio-washed combed organic cotton breathable crewneck tee in versatile charcoal grey.",
+      "price": 499,
+      "stockQty": 50,
+      "imagePath": "assets/products/crew-neck-tshirt.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 11,
+      "categoryId": 2,
+      "name": "Slim-Fit Jeans",
+      "description": "Stretchable dark-indigo denim jeans featuring a modern tapered fit and reinforced five-pocket styling.",
+      "price": 1299,
+      "stockQty": 30,
+      "imagePath": "assets/products/slim-fit-jeans.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 12,
+      "categoryId": 2,
+      "name": "Casual Shirt",
+      "description": "Premium breathable linen-blend casual shirt with button-down collar and curved hem for smart-casual wear.",
+      "price": 899,
+      "stockQty": 40,
+      "imagePath": "assets/products/casual-cotton-shirt.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 13,
+      "categoryId": 2,
+      "name": "Zip-Up Hoodie Jacket",
+      "description": "Fleece-lined heavyweight cotton blend zipper hoodie with adjustable drawstring hood and kangaroo pockets.",
+      "price": 1499,
+      "stockQty": 25,
+      "imagePath": "assets/products/zip-up-hoodie.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 14,
+      "categoryId": 2,
+      "name": "Women's Kurti",
+      "description": "A-line straight cotton ethnic kurti with intricate floral embroidery and side slits for festive elegance.",
+      "price": 799,
+      "stockQty": 35,
+      "imagePath": "assets/products/embroidered-kurti.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 15,
+      "categoryId": 2,
+      "name": "Women's Casual Top",
+      "description": "Lightweight chiffon floral flutter-sleeve summer blouse with keyhole neckline and relaxed silhouette.",
+      "price": 699,
+      "stockQty": 32,
+      "imagePath": "assets/products/summer-dress.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 16,
+      "categoryId": 2,
+      "name": "Classic Washed Denim Jacket",
+      "description": "Vintage washed rugged denim trucker jacket with brass hardware and adjustable waist tabs.",
+      "price": 1899,
+      "stockQty": 20,
+      "imagePath": "assets/products/denim-jacket.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 17,
+      "categoryId": 2,
+      "name": "Winter Woolen Scarf",
+      "description": "Ultra-soft cashmere-touch woven woolen muffler with fringed edges for cozy winter warmth.",
+      "price": 399,
+      "stockQty": 40,
+      "imagePath": "assets/products/woolen-scarf.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 18,
+      "categoryId": 2,
+      "name": "Puffer Winter Jacket",
+      "description": "Quilted water-resistant thermal puffer jacket with stand collar and synthetic down insulation.",
+      "price": 2499,
+      "stockQty": 15,
+      "imagePath": "assets/products/puffer-jacket.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 19,
+      "categoryId": 3,
+      "name": "Pro Cushion Running Shoes",
+      "description": "Engineered breathable mesh road running shoes with responsive EVA foam midsole and anti-skid rubber grip.",
+      "price": 1799,
+      "stockQty": 30,
+      "imagePath": "assets/products/running-shoes.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 20,
+      "categoryId": 3,
+      "name": "Casual Sneakers",
+      "description": "Low-top white canvas lifestyle sneakers with cushioned insole and vulcanized rubber outsole.",
+      "price": 1199,
+      "stockQty": 40,
+      "imagePath": "assets/products/canvas-sneakers.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 21,
+      "categoryId": 3,
+      "name": "Formal Oxford Leather Shoes",
+      "description": "Handcrafted genuine leather closed-lace Oxford dress shoes with burnished toe and soft leather lining.",
+      "price": 2299,
+      "stockQty": 20,
+      "imagePath": "assets/products/oxford-leather-shoes.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 22,
+      "categoryId": 3,
+      "name": "Casual Loafers Slip-On",
+      "description": "Flexible suede moccasin penny loafers with memory foam padding for effortless all-day comfort.",
+      "price": 1499,
+      "stockQty": 25,
+      "imagePath": "assets/products/casual-loafers.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 23,
+      "categoryId": 3,
+      "name": "Trail Hiking Boots",
+      "description": "Ankle-support waterproof nubuck hiking boots with rugged lugged traction sole for outdoor terrain.",
+      "price": 2799,
+      "stockQty": 18,
+      "imagePath": "assets/products/hiking-boots.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 24,
+      "categoryId": 3,
+      "name": "Lightweight Sports Sliders",
+      "description": "Ergonomic contoured footbed slip-on slides with textured grip strap for post-workout relaxation.",
+      "price": 499,
+      "stockQty": 50,
+      "imagePath": "assets/products/sports-sliders.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 25,
+      "categoryId": 3,
+      "name": "Sports Shoes",
+      "description": "Multi-sport cross-training shoes with lateral stability support and shock-absorbing heel cushioning.",
+      "price": 1399,
+      "stockQty": 35,
+      "imagePath": "assets/products/mesh-walking-shoes.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 26,
+      "categoryId": 3,
+      "name": "High-Top Basketball Sneakers",
+      "description": "Performance high-top basketball shoes with padded collar, air-cushioned unit, and pivot point traction.",
+      "price": 2999,
+      "stockQty": 15,
+      "imagePath": "assets/products/basketball-sneakers.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 27,
+      "categoryId": 4,
+      "name": "Stainless Steel Water Bottle",
+      "description": "BPA-free vacuum insulated stainless steel flask keeping beverages cold for 24 hours or hot for 12 hours.",
+      "price": 399,
+      "stockQty": 50,
+      "imagePath": "assets/products/steel-water-bottle.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 28,
+      "categoryId": 4,
+      "name": "Insulated Travel Mug",
+      "description": "Spill-proof double-wall thermal coffee tumbler with 360-degree drinkable lid and sweat-free powder finish.",
+      "price": 499,
+      "stockQty": 45,
+      "imagePath": "assets/products/travel-mug.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 29,
+      "categoryId": 4,
+      "name": "Table Lamp",
+      "description": "Nordic minimalist bedside desk lamp with natural wood base, linen fabric shade, and warm LED bulb.",
+      "price": 799,
+      "stockQty": 22,
+      "imagePath": "assets/products/minimalist-table-lamp.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 30,
+      "categoryId": 4,
+      "name": "Bedsheet Set",
+      "description": "100% pure Egyptian cotton 300 thread count double king bedsheet with 2 matching envelope pillow covers.",
+      "price": 999,
+      "stockQty": 30,
+      "imagePath": "assets/products/bedsheet-set.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 31,
+      "categoryId": 4,
+      "name": "Storage Organizer",
+      "description": "Foldable linen-textured multi-compartment closet storage box with clear label window and reinforced handles.",
+      "price": 599,
+      "stockQty": 40,
+      "imagePath": "assets/products/storage-organizer.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 32,
+      "categoryId": 4,
+      "name": "Non-Stick Cookware Set",
+      "description": "3-piece granite-coated non-stick cookware set including fry pan, kadai with glass lid, and tawa.",
+      "price": 1499,
+      "stockQty": 18,
+      "imagePath": "assets/products/non-stick-cookware.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 33,
+      "categoryId": 4,
+      "name": "Electric Kettle",
+      "description": "1.5-liter rapid boil cordless stainless steel electric kettle with automatic shut-off and boil-dry protection.",
+      "price": 999,
+      "stockQty": 25,
+      "imagePath": "assets/products/electric-kettle.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 34,
+      "categoryId": 4,
+      "name": "Aromatherapy Oil Diffuser",
+      "description": "Ultrasonic cool mist essential oil humidifier with 7 color ambient LED lights and whisper-quiet operation.",
+      "price": 899,
+      "stockQty": 28,
+      "imagePath": "assets/products/oil-diffuser.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 35,
+      "categoryId": 4,
+      "name": "Ceramic Coffee Mug Set",
+      "description": "Set of 4 handcrafted matte ceramic mugs with heat-resistant handles for specialty coffee and tea (350ml).",
+      "price": 599,
+      "stockQty": 35,
+      "imagePath": "assets/products/ceramic-mugs.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 36,
+      "categoryId": 5,
+      "name": "Hydrating Facial Cleanser",
+      "description": "Gentle foaming face wash with hyaluronic acid, ceramides, and aloe vera for deep pore cleansing.",
+      "price": 349,
+      "stockQty": 45,
+      "imagePath": "assets/products/facial-cleanser.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 37,
+      "categoryId": 5,
+      "name": "Vitamin C Brightening Serum",
+      "description": "20% active Vitamin C facial serum enriched with Ferulic acid and Vitamin E for glowing skin complexion.",
+      "price": 599,
+      "stockQty": 40,
+      "imagePath": "assets/products/vitamin-c-serum.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 38,
+      "categoryId": 5,
+      "name": "SPF 50 Matte Sunscreen Gel",
+      "description": "Broad spectrum UVA/UVB PA++++ matte finish sunscreen gel leaving no white cast, water and sweat resistant.",
+      "price": 449,
+      "stockQty": 50,
+      "imagePath": "assets/products/matte-sunscreen.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 39,
+      "categoryId": 5,
+      "name": "Herbal Nourishing Shampoo",
+      "description": "Sulfate and paraben-free onion and bhringraj restorative shampoo preventing hair fall and boosting strength.",
+      "price": 399,
+      "stockQty": 40,
+      "imagePath": "assets/products/herbal-shampoo.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 40,
+      "categoryId": 5,
+      "name": "Organic Argan Hair Oil",
+      "description": "Cold-pressed Moroccan argan oil elixir infused with almond oil for frizz control, shine, and scalp health.",
+      "price": 499,
+      "stockQty": 35,
+      "imagePath": "assets/products/argan-hair-oil.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 41,
+      "categoryId": 5,
+      "name": "Shea Butter Body Moisturizer",
+      "description": "Deep nourishing cocoa and shea butter body lotion providing 48-hour intense hydration for dry skin.",
+      "price": 379,
+      "stockQty": 40,
+      "imagePath": "assets/products/body-moisturizer.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 42,
+      "categoryId": 5,
+      "name": "Beard Grooming Kit & Oil",
+      "description": "Complete men's beard grooming pack including cedarwood beard oil, organic balm, and pearwood comb.",
+      "price": 699,
+      "stockQty": 25,
+      "imagePath": "assets/products/beard-grooming-kit.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 43,
+      "categoryId": 5,
+      "name": "Sonic Electric Toothbrush",
+      "description": "Rechargeable ultrasonic electric toothbrush with 40,000 vibrations/min, smart 2-minute timer, and 3 heads.",
+      "price": 1299,
+      "stockQty": 30,
+      "imagePath": "assets/products/electric-toothbrush.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 44,
+      "categoryId": 6,
+      "name": "Java Programming Guide",
+      "description": "Comprehensive modern Java developer reference covering Java 21 LTS features, concurrency, and OOP patterns.",
+      "price": 599,
+      "stockQty": 40,
+      "imagePath": "assets/products/java-programming-book.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 45,
+      "categoryId": 6,
+      "name": "Data Structures and Algorithms",
+      "description": "In-depth algorithmic analysis textbook covering asymptotic complexity, trees, graphs, and dynamic programming.",
+      "price": 699,
+      "stockQty": 35,
+      "imagePath": "assets/products/dsa-textbook.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 46,
+      "categoryId": 6,
+      "name": "Database Management Systems",
+      "description": "Standard collegiate reference on relational database systems, ACID transactions, SQL, and indexing theory.",
+      "price": 549,
+      "stockQty": 30,
+      "imagePath": "assets/products/dbms-textbook.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 47,
+      "categoryId": 6,
+      "name": "Operating Systems Textbook",
+      "description": "Foundational guide to CPU scheduling, virtual memory, concurrency deadlocks, and Linux kernel internals.",
+      "price": 649,
+      "stockQty": 28,
+      "imagePath": "assets/products/os-textbook.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 48,
+      "categoryId": 6,
+      "name": "Computer Networks Guide",
+      "description": "Top-down approach to Internet protocols, TCP/IP socket programming, routing algorithms, and network security.",
+      "price": 599,
+      "stockQty": 32,
+      "imagePath": "assets/products/cn-guide-book.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 49,
+      "categoryId": 6,
+      "name": "Software Engineering Textbook",
+      "description": "Modern software engineering methodologies including Agile Scrum, CI/CD pipelines, DevOps, and clean design.",
+      "price": 499,
+      "stockQty": 35,
+      "imagePath": "assets/products/se-textbook.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 50,
+      "categoryId": 6,
+      "name": "Atomic Habits Productivity Book",
+      "description": "International bestselling guide on tiny behavioral changes, compound habit formation, and everyday focus.",
+      "price": 450,
+      "stockQty": 60,
+      "imagePath": "assets/products/atomic-habits-book.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 51,
+      "categoryId": 6,
+      "name": "Clean Code Handbook",
+      "description": "Agile software craftsmanship handbook on writing readable, testable, and maintainable enterprise code.",
+      "price": 799,
+      "stockQty": 25,
+      "imagePath": "assets/products/clean-code-book.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 52,
+      "categoryId": 7,
+      "name": "Eco-Friendly Non-Slip Yoga Mat",
+      "description": "6mm high-density TPE dual-sided textured exercise mat with body alignment lines and carry strap.",
+      "price": 699,
+      "stockQty": 30,
+      "imagePath": "assets/products/eco-yoga-mat.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 53,
+      "categoryId": 7,
+      "name": "Adjustable Dumbbell Set",
+      "description": "20kg home gym dumbbell weight set with solid chrome connector bar, rubber coated plates, and star locks.",
+      "price": 1999,
+      "stockQty": 15,
+      "imagePath": "assets/products/dumbbell-set.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 54,
+      "categoryId": 7,
+      "name": "Fitness Resistance Bands",
+      "description": "Set of 5 natural latex loop exercise bands with progressive resistance levels from 5 lbs to 40 lbs.",
+      "price": 399,
+      "stockQty": 50,
+      "imagePath": "assets/products/resistance-bands.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 55,
+      "categoryId": 7,
+      "name": "High-Speed Skipping Rope",
+      "description": "Tangle-free steel wire speed jump rope with 360-degree ball bearing rotation and aluminum grip handles.",
+      "price": 249,
+      "stockQty": 60,
+      "imagePath": "assets/products/skipping-rope.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 56,
+      "categoryId": 7,
+      "name": "Stainless Steel Protein Shaker",
+      "description": "750ml insulated metal shaker bottle with wire whisk blending ball, measurement markings, and leakproof flip cap.",
+      "price": 449,
+      "stockQty": 45,
+      "imagePath": "assets/products/protein-shaker.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 57,
+      "categoryId": 7,
+      "name": "Deep Tissue Foam Roller",
+      "description": "High-density trigger point muscle roller for physical therapy, myofascial release, and athletic recovery.",
+      "price": 599,
+      "stockQty": 30,
+      "imagePath": "assets/products/foam-roller.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 58,
+      "categoryId": 7,
+      "name": "Gym Weightlifting Gloves",
+      "description": "Breathable workout gloves with silicone palm grip padding, integrated wrist wraps, and pull tabs.",
+      "price": 349,
+      "stockQty": 40,
+      "imagePath": "assets/products/gym-gloves.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 59,
+      "categoryId": 7,
+      "name": "Standard Size 5 Football",
+      "description": "FIFA quality synthetic leather soccer ball with butyl bladder for optimal air retention and outdoor play.",
+      "price": 799,
+      "stockQty": 25,
+      "imagePath": "assets/products/soccer-football.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 60,
+      "categoryId": 8,
+      "name": "Analog Wristwatch",
+      "description": "Sleek quartz analog wristwatch with stainless steel mesh band, scratch-resistant mineral glass, and date display.",
+      "price": 1299,
+      "stockQty": 25,
+      "imagePath": "assets/products/analog-wristwatch.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 61,
+      "categoryId": 8,
+      "name": "Wallet",
+      "description": "Handcrafted top-grain genuine leather bifold wallet featuring RFID blocking shield and dual cash slots.",
+      "price": 499,
+      "stockQty": 45,
+      "imagePath": "assets/products/leather-wallet.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 62,
+      "categoryId": 8,
+      "name": "Sunglasses",
+      "description": "Classic unisex polarized sunglasses with 100% UV400 protection coating and durable matte polycarbonate frame.",
+      "price": 799,
+      "stockQty": 35,
+      "imagePath": "assets/products/polarized-sunglasses.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 63,
+      "categoryId": 8,
+      "name": "Laptop Backpack",
+      "description": "Water-resistant 30L commuter backpack with padded 15.6\" laptop compartment and USB external charging port.",
+      "price": 1299,
+      "stockQty": 30,
+      "imagePath": "assets/products/laptop-backpack.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 64,
+      "categoryId": 8,
+      "name": "Everyday Backpack",
+      "description": "Vintage washed canvas multi-pocket daypack with drawstring closure and magnetic flap for college and day trips.",
+      "price": 899,
+      "stockQty": 35,
+      "imagePath": "assets/products/canvas-backpack.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 65,
+      "categoryId": 8,
+      "name": "Travel Toiletry Bag",
+      "description": "Hanging waterproof travel wash bag with clear inner compartments, metal swivel hook, and leakproof zippers.",
+      "price": 449,
+      "stockQty": 40,
+      "imagePath": "assets/products/toiletry-bag.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 66,
+      "categoryId": 8,
+      "name": "Leather Reversible Dress Belt",
+      "description": "Genuine leather reversible belt with rotating zinc alloy buckle switching easily between black and brown.",
+      "price": 549,
+      "stockQty": 40,
+      "imagePath": "assets/products/leather-belt.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 67,
+      "categoryId": 8,
+      "name": "Gym Duffle Bag",
+      "description": "Lightweight cylindrical gym duffel with separate ventilated shoe compartment and water-resistant lining.",
+      "price": 999,
+      "stockQty": 25,
+      "imagePath": "assets/products/gym-duffle-bag.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 68,
+      "categoryId": 9,
+      "name": "Strategy Board Game Catan",
+      "description": "Classic cooperative settlement strategy board game for 3-4 players with modular hexagonal board tiles.",
+      "price": 1899,
+      "stockQty": 20,
+      "imagePath": "assets/products/board-game.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 69,
+      "categoryId": 9,
+      "name": "Speed Rubik Cube 3x3",
+      "description": "Magnetic stickerless speed cube with anti-pop mechanism and smooth corner-cutting tension adjustment.",
+      "price": 299,
+      "stockQty": 55,
+      "imagePath": "assets/products/speed-rubik-cube.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 70,
+      "categoryId": 9,
+      "name": "Creative Building Blocks Set",
+      "description": "500-piece colorful architectural brick construction playset inspiring spatial imagination for ages 6+.",
+      "price": 1199,
+      "stockQty": 30,
+      "imagePath": "assets/products/building-blocks.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 71,
+      "categoryId": 9,
+      "name": "Remote Control Monster Truck",
+      "description": "1:16 scale all-terrain off-road RC rock crawler with independent suspension shocks and 2.4GHz remote.",
+      "price": 1499,
+      "stockQty": 22,
+      "imagePath": "assets/products/rc-monster-truck.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 72,
+      "categoryId": 9,
+      "name": "Wooden Chess Set with Storage",
+      "description": "Handcrafted folding wooden chess board with magnetic Staunton chessmen pieces and felted interior slots.",
+      "price": 999,
+      "stockQty": 25,
+      "imagePath": "assets/products/wooden-chess-set.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 73,
+      "categoryId": 9,
+      "name": "1000-Piece Landscape Jigsaw Puzzle",
+      "description": "Precision die-cut high-definition scenic landscape puzzle printed on non-glare recycled blue puzzle board.",
+      "price": 649,
+      "stockQty": 30,
+      "imagePath": "assets/products/jigsaw-puzzle.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 74,
+      "categoryId": 9,
+      "name": "Stuffed Plush Teddy Bear",
+      "description": "14-inch super soft huggable plush teddy bear made with hypoallergenic materials and embroidered paws.",
+      "price": 499,
+      "stockQty": 40,
+      "imagePath": "assets/products/plush-teddy-bear.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 75,
+      "categoryId": 9,
+      "name": "Die-Cast Racing Car Set",
+      "description": "Pack of 5 authentic 1:64 scale die-cast metal speedway sports cars with realistic aerodynamic details.",
+      "price": 599,
+      "stockQty": 35,
+      "imagePath": "assets/products/diecast-cars.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 76,
+      "categoryId": 10,
+      "name": "Hardcover Dotted Grid Journal",
+      "description": "Premium 160 GSM bleed-proof bamboo paper notebook with numbered pages, inner pocket, and ribbon marker.",
+      "price": 349,
+      "stockQty": 50,
+      "imagePath": "assets/products/dotted-journal.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 77,
+      "categoryId": 10,
+      "name": "Desk Organizer",
+      "description": "Black steel wire mesh multi-compartment desktop organizer with pull-out drawer for stationery and pens.",
+      "price": 349,
+      "stockQty": 50,
+      "imagePath": "assets/products/mesh-desk-organizer.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 78,
+      "categoryId": 10,
+      "name": "Executive Metal Gel Pen Set",
+      "description": "Set of 3 weighted matte black metal body rollerball pens with 0.5mm smooth quick-dry Japanese archival ink.",
+      "price": 299,
+      "stockQty": 60,
+      "imagePath": "assets/products/gel-pen-set.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 79,
+      "categoryId": 10,
+      "name": "Dual-Sided PU Leather Desk Mat",
+      "description": "Large 80x40cm waterproof desk blotter protector pad for keyboard and mouse with non-slip suede base.",
+      "price": 599,
+      "stockQty": 40,
+      "imagePath": "assets/products/leather-desk-mat.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 80,
+      "categoryId": 10,
+      "name": "Ergonomic Laptop Stand",
+      "description": "Foldable aluminum alloy ventilated laptop elevator riser supporting up to 17-inch devices with silicone pads.",
+      "price": 899,
+      "stockQty": 35,
+      "imagePath": "assets/products/laptop-stand.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 81,
+      "categoryId": 10,
+      "name": "Pastel Color Sticky Notes Pack",
+      "description": "8 pads of aesthetic muted pastel repositionable self-adhesive reminder notes (100 sheets per pad).",
+      "price": 199,
+      "stockQty": 70,
+      "imagePath": "assets/products/sticky-notes.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 82,
+      "categoryId": 10,
+      "name": "Heavy Duty Desktop Stapler",
+      "description": "All-metal ergonomic desktop stapler with 25-sheet capacity, low staple indicator, and 1000 standard staples.",
+      "price": 249,
+      "stockQty": 45,
+      "imagePath": "assets/products/desktop-stapler.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 83,
+      "categoryId": 10,
+      "name": "Dry Erase Magnetic Whiteboard",
+      "description": "Compact 40x30cm aluminum framed desktop whiteboard with magnetic dry-erase marker and pen tray.",
+      "price": 749,
+      "stockQty": 25,
+      "imagePath": "assets/products/magnetic-whiteboard.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 84,
+      "categoryId": 10,
+      "name": "Aesthetic Pastel Highlighters",
+      "description": "Set of 6 soft water-based chisel tip chisel highlighters for journaling and Bible study with zero bleed.",
+      "price": 229,
+      "stockQty": 55,
+      "imagePath": "assets/products/pastel-highlighters.jpg",
+      "isActive": true
+    },
+    {
+      "productId": 85,
+      "categoryId": 10,
+      "name": "A4 Expanding Document Folder",
+      "description": "13-pocket durable polypropylene expanding accordion file organizer with customizable colored index tabs.",
+      "price": 299,
+      "stockQty": 50,
+      "imagePath": "assets/products/document-folder.jpg",
+      "isActive": true
+    }
+  ]
+}

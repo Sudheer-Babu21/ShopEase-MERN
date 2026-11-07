@@ -1,0 +1,33 @@
+{
+  "name": "shopease-mern",
+  "version": "1.0.0",
+  "description": "ShopEase - Online Shopping Cart System built with the MERN Stack (MongoDB, Express, React, Node.js)",
+  "main": "server/src/server.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "node database/seed.js",
+    "setup:admin": "node server/src/utils/adminSetup.js",
+    "server": "npm run start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "build:client": "npm run build --prefix client",
+    "test:server": "npm test --prefix server",
+    "test": "npm run test:server"
+  },
+  "keywords": [
+    "shopease",
+    "mern",
+    "ecommerce",
+    "shopping-cart",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "ShopEase Engineering Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
